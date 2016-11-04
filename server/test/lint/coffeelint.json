@@ -1,0 +1,38 @@
+{
+  "no_trailing_whitespace": {
+    "allowed_in_empty_lines": false
+  },
+  "max_line_length": {
+    "value": 120,
+    "level": "error"
+  },
+  "indentation": {
+    "level": "error"
+  },
+  "camel_case_classes": {
+    "level": "error"
+  },
+  "no_throwing_strings": {
+    "level": "error"
+  },
+  "no_backticks": {
+    "level": "error"
+  },
+  "no_debugger": {
+    "console": true,
+    "level": "error"
+  },
+  "no_unnecessary_fat_arrows": {
+    "level": "error"
+  },
+  "no_implicit_returns": {
+    "module": "coffeelint-no-implicit-returns",
+    "level": "warn"
+  },
+  "no_interpolation_in_single_quotes": {
+    "level": "error"
+  },
+  "no_unnecessary_double_quotes": {
+    "level": "error"
+  }
+}

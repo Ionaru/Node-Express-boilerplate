@@ -1,0 +1,17 @@
+.idea
+*.iml
+/client/public/stylesheets
+/client/public/javascript
+/npm-debug.log
+/node_modules
+/tmp
+/logs
+/cache
+*.db
+
+# Config files
+/config/crts
+/config/database.ini
+/config/database_test.ini
+/config/config.ini
+/config/config_test.ini

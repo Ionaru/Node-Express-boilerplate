@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+"use strict";
+
+/**
+ * Initiate coffeescript and load entry file
+ */
+require('iced-coffee-script-3/register');
+require('./www');

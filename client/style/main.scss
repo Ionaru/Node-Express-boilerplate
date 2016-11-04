@@ -1,0 +1,30 @@
+// Define main colours
+$primary_colour: #F26921;
+$primary_highlight: #0095DA;
+
+$standard_text_colour: #333333;
+$standard_bg_colour: #ffffff;
+
+* {
+  // Set box-sizing: border-box on every element
+  box-sizing: border-box;
+}
+
+html {
+  // Never hide the scrollbar, this messes with modals
+  overflow-y: scroll !important;
+
+  body {
+    // Set some standard rendering as the defaults might vary between browsers and operating systems
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: $standard_text_colour;
+    background-color: $standard_bg_colour;
+    margin: 0;
+
+    .my-content, .error-div, footer {
+      text-align: center;
+    }
+  }
+}
